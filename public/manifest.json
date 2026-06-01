@@ -1,0 +1,55 @@
+{
+    "name": "Rạp Phim Chill",
+    "short_name": "Phim Chill",
+    "description": "Xem phim online miễn phí chất lượng cao",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#dc2626",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "entertainment",
+        "video"
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Trang Chủ",
+            "short_name": "Home",
+            "description": "Về trang chủ",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/icon-96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Phim Mới",
+            "short_name": "New",
+            "description": "Phim mới cập nhật",
+            "url": "/new-updates",
+            "icons": [
+                {
+                    "src": "/icon-96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}
